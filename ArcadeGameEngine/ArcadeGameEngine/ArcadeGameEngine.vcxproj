@@ -160,6 +160,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="App\App.cpp" />
+    <ClCompile Include="Utils\FileCommandReader.cpp" />
+    <ClCompile Include="Scene\GameScene.cpp" />
+    <ClCompile Include="Input\InputController.cpp" />
+    <ClCompile Include="Input\GameController.cpp" />
     <ClCompile Include="Scene\ArcadeMenuScene.cpp" />
     <ClCompile Include="Shapes\Simple Shapes\Circle.cpp" />
     <ClCompile Include="Graphics\Color.cpp" />
@@ -174,6 +178,13 @@
     <ClCompile Include="Utils\Vec2D.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Utils\FileCommandReader.h" />
+    <ClInclude Include="Scene\GameScene.h" />
+    <ClInclude Include="Games\Game.h" />
+    <ClInclude Include="Input\InputController.h" />
+    <ClInclude Include="Input\GameController.h" />
+    <ClInclude Include="Input\InputAction.h" />
+    <ClInclude Include="Shapes\AllShapesInclude.h" />
     <ClInclude Include="App\App.h" />
     <ClInclude Include="Scene\ArcadeMenuScene.h" />
     <ClInclude Include="Scene\Scene.h" />

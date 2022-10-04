@@ -1,9 +1,6 @@
 #include "Screen.h"
 #include "../Utils/Vec2D.h"
-#include "../Shapes/Line2D.h"
-#include "../Shapes/Simple Shapes/Triangle.h"
-#include "../Shapes/Simple Shapes/AARectangle.h"
-#include "../Shapes/Simple Shapes/Circle.h"
+#include "../Shapes/AllShapesInclude.h"
 #include "../Utils/Utils.h"
 #include <SDL.h>
 #include <cassert>

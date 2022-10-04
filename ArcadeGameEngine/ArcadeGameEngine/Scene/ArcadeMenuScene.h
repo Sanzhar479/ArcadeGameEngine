@@ -4,21 +4,21 @@
 #include <memory>
 enum eGame
 {
-	TETRIS,
+	TETRIS = 0,
 	BREAK_OUT,
 	ASTEROIDS,
-	CAPMAN,
+	PACMAN,
 	NUM_GAMES
 };
 
 class Screen;
 
-class ArcadeMenuScene:public Scene
+class ArcadeMenuScene: public Scene
 {
 
 public:
 	ArcadeMenuScene();
-	virtual void init() override;
+	virtual void Init() override;
 	virtual void Update(uint32_t dt) override;
 	virtual void Draw(Screen& theScreen) override;
 	virtual const std::string& GetSceneName() const override;
